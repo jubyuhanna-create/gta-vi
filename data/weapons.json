@@ -1,0 +1,169 @@
+[
+  {
+    "id": "pistol",
+    "name": "Pistol",
+    "category": "Handgun",
+    "ammoType": "Pistol Rounds",
+    "description": "Standard semi-automatic sidearm. Lucia and Jason hold up a convenience store with handguns in the trailers.",
+    "trailerAppearances": [
+      "Trailer 1",
+      "Trailer 2"
+    ],
+    "verified": true,
+    "source": "Rockstar Games — GTA VI Trailer 1 (Dec 2023): convenience-store robbery"
+  },
+  {
+    "id": "revolver",
+    "name": "Revolver",
+    "category": "Handgun",
+    "ammoType": "Revolver Rounds",
+    "description": "Heavy six-shooter with big stopping power and slow reload.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "micro-smg",
+    "name": "Micro SMG",
+    "category": "SMG",
+    "ammoType": "SMG Rounds",
+    "description": "Compact machine pistol, ideal for drive-bys.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "smg",
+    "name": "SMG",
+    "category": "SMG",
+    "ammoType": "SMG Rounds",
+    "description": "Versatile submachine gun balancing fire rate and control.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "pump-shotgun",
+    "name": "Pump Shotgun",
+    "category": "Shotgun",
+    "ammoType": "Shotgun Shells",
+    "description": "Reliable close-range shotgun, a series standard.",
+    "trailerAppearances": [
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Shotgun visible in Trailer 2 per community frame analysis; name unconfirmed"
+  },
+  {
+    "id": "sawed-off-shotgun",
+    "name": "Sawed-Off Shotgun",
+    "category": "Shotgun",
+    "ammoType": "Shotgun Shells",
+    "description": "Short-barreled shotgun that's easy to conceal.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "assault-rifle",
+    "name": "Assault Rifle",
+    "category": "Assault Rifle",
+    "ammoType": "Rifle Rounds",
+    "description": "AK-pattern automatic rifle with strong all-round performance.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "carbine-rifle",
+    "name": "Carbine Rifle",
+    "category": "Assault Rifle",
+    "ammoType": "Rifle Rounds",
+    "description": "AR-pattern rifle favored by law enforcement.",
+    "trailerAppearances": [
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Police with rifles visible in Trailer 2 per community analysis; name unconfirmed"
+  },
+  {
+    "id": "sniper-rifle",
+    "name": "Sniper Rifle",
+    "category": "Sniper Rifle",
+    "ammoType": "Sniper Rounds",
+    "description": "Long-range bolt-action rifle with a magnified scope.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "hunting-rifle",
+    "name": "Hunting Rifle",
+    "category": "Sniper Rifle",
+    "ammoType": "Rifle Rounds",
+    "description": "Scoped rifle suited to hunting in Mount Kalaga National Park.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "light-machine-gun",
+    "name": "Light Machine Gun",
+    "category": "Machine Gun",
+    "ammoType": "Machine Gun Rounds",
+    "description": "Belt-fed suppression weapon with a huge magazine.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "rpg",
+    "name": "RPG",
+    "category": "Heavy",
+    "ammoType": "Rockets",
+    "description": "Shoulder-fired rocket launcher for vehicles and helicopters.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "grenade",
+    "name": "Grenade",
+    "category": "Throwable",
+    "ammoType": "Grenades",
+    "description": "Fragmentation grenade with a short fuse.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "molotov",
+    "name": "Molotov Cocktail",
+    "category": "Throwable",
+    "ammoType": "Molotovs",
+    "description": "Improvised incendiary bottle bomb.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "baseball-bat",
+    "name": "Baseball Bat",
+    "category": "Melee",
+    "ammoType": "None",
+    "description": "Classic blunt melee weapon.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "machete",
+    "name": "Machete",
+    "category": "Melee",
+    "ammoType": "None",
+    "description": "Long blade handy in the Grassrivers undergrowth.",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  }
+]

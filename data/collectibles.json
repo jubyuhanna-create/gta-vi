@@ -1,0 +1,138 @@
+[
+  {
+    "id": "convenience-store-robberies",
+    "name": "Convenience Store Robberies",
+    "category": "Side Activity",
+    "region": null,
+    "description": "Hold up corner stores and gas stations across Leonida. Lucia and Jason's stick-up is one of Trailer 1's signature moments.",
+    "reward": "Cash (amount unknown)",
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": true,
+    "source": "Rockstar Games — GTA VI Trailer 1 (Dec 2023)"
+  },
+  {
+    "id": "social-media-clips",
+    "name": "Viral Social Media Clips",
+    "category": "Social",
+    "region": null,
+    "description": "Leonida's in-universe social feeds capture wild moments, as shown by the vertical-video montages in the trailers.",
+    "reward": "Unknown",
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": true,
+    "source": "Rockstar Games — GTA VI Trailer 1 (Dec 2023): in-universe social-media footage montage"
+  },
+  {
+    "id": "airboat-tours",
+    "name": "Airboat Rides",
+    "category": "Side Activity",
+    "region": "grassrivers",
+    "description": "Explore the wetlands by airboat, dodging alligators along the way.",
+    "reward": "Unknown",
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": false,
+    "source": "Airboats shown in trailers; dedicated activity unconfirmed"
+  },
+  {
+    "id": "fishing",
+    "name": "Fishing",
+    "category": "Hobby",
+    "region": "leonida-keys",
+    "description": "Charter boats and fishing spots throughout the Keys and the Gulf.",
+    "reward": "Unknown",
+    "trailerAppearances": [
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Fishing imagery in Trailer 2 per community analysis; playable activity unconfirmed"
+  },
+  {
+    "id": "jet-ski-racing",
+    "name": "Jet Ski Racing",
+    "category": "Mini-Game",
+    "region": "vice-city",
+    "description": "Watercraft races along the Vice City coastline.",
+    "reward": "Cash / unlocks (unknown)",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "street-races",
+    "name": "Street Races",
+    "category": "Mini-Game",
+    "region": "vice-city",
+    "description": "Illegal street races and car-meet challenges across Vice City.",
+    "reward": "Cash / vehicle unlocks (unknown)",
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": false,
+    "source": "Car-meet culture shown in Trailer 1; races unconfirmed"
+  },
+  {
+    "id": "strip-clubs",
+    "name": "Strip Clubs",
+    "category": "Side Activity",
+    "region": "vice-city",
+    "description": "Vice City nightlife venues, including clubs tied to Boobie Ike's businesses.",
+    "reward": "None",
+    "trailerAppearances": [
+      "Trailer 1",
+      "Official Website"
+    ],
+    "verified": false,
+    "source": "Strip club businesses mentioned on the official website; activity details unconfirmed"
+  },
+  {
+    "id": "gym-workouts",
+    "name": "Gym Workouts",
+    "category": "Hobby",
+    "region": "vice-beach",
+    "description": "Open-air beach gyms for building stats.",
+    "reward": "Character stats (unconfirmed)",
+    "trailerAppearances": [
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Beach gym seen in trailers; mechanic unconfirmed"
+  },
+  {
+    "id": "hunting",
+    "name": "Hunting",
+    "category": "Hobby",
+    "region": "mount-kalaga-national-park",
+    "description": "Track wildlife in Leonida's northern wilderness.",
+    "reward": "Pelts / cash (unknown)",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "hidden-packages",
+    "name": "Hidden Packages",
+    "category": "Collectible",
+    "region": null,
+    "description": "Classic series collectible scattered across the map, famously in GTA Vice City.",
+    "reward": "Weapons / cash (unknown)",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  },
+  {
+    "id": "stunt-jumps",
+    "name": "Unique Stunt Jumps",
+    "category": "Collectible",
+    "region": null,
+    "description": "Hit ramps at speed for cinematic slow-motion jumps.",
+    "reward": "Completion credit (unknown)",
+    "trailerAppearances": [],
+    "verified": false,
+    "source": "Series staple; presence in GTA VI unconfirmed"
+  }
+]

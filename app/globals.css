@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color-scheme: dark;
+}
+
+html {
+  background: #09090b;
+}
+
+body {
+  @apply bg-ink text-zinc-200 antialiased;
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: rgba(255, 42, 133, 0.35);
+  color: #fff;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6;
+  }
+  .card {
+    @apply rounded-xl border border-white/10 bg-ink-800/70 backdrop-blur;
+  }
+  .neon-text {
+    background: linear-gradient(90deg, #ff2a85, #a855f7 45%, #00f0ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .glow-pink {
+    text-shadow: 0 0 12px rgba(255, 42, 133, 0.7), 0 0 32px rgba(255, 42, 133, 0.35);
+  }
+  .glow-cyan {
+    text-shadow: 0 0 12px rgba(0, 240, 255, 0.7), 0 0 32px rgba(0, 240, 255, 0.35);
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-neon-cyan;
+  }
+  .btn-pink {
+    @apply btn bg-neon-pink text-white shadow-neon-pink hover:brightness-110;
+  }
+  .btn-ghost {
+    @apply btn border border-neon-cyan/40 text-neon-cyan hover:bg-neon-cyan/10;
+  }
+  .code {
+    @apply overflow-x-auto rounded-lg border border-white/10 bg-black/60 p-4 font-mono text-[13px] leading-relaxed text-zinc-300;
+  }
+  .method {
+    @apply rounded bg-neon-cyan/15 px-1.5 py-0.5 font-mono text-[11px] font-bold text-neon-cyan;
+  }
+}
+
+.bg-grid-fade {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at 50% 0%, black 30%, transparent 75%);
+}

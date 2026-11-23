@@ -1,0 +1,29 @@
+name: 📦 Data addition or correction
+description: Suggest a new entry or fix an existing one
+labels: [data]
+body:
+  - type: dropdown
+    id: dataset
+    attributes:
+      label: Dataset
+      options: [vehicles, locations, characters, weapons, radio, collectibles]
+    validations:
+      required: true
+  - type: input
+    id: entry
+    attributes:
+      label: Entry id (if existing)
+      placeholder: bravado-banshee
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Official link or trailer timestamp. Required for anything to be marked verified.
+    validations:
+      required: true

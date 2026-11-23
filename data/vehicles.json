@@ -1,0 +1,285 @@
+[
+  {
+    "id": "bravado-banshee",
+    "name": "Bravado Banshee",
+    "category": "Sports",
+    "manufacturer": "Bravado",
+    "realWorldInspiration": "Dodge Viper",
+    "estimatedTopSpeedMph": 190,
+    "description": "Long-hooded V10-style roadster, a series staple. A modern Viper-inspired design is spotted cruising Vice City in the trailers.",
+    "customizationNotes": [
+      "Wide-body kits",
+      "Racing stripes",
+      "Removable roof"
+    ],
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "declasse-vigero",
+    "name": "Declasse Vigero",
+    "category": "Muscle",
+    "manufacturer": "Declasse",
+    "realWorldInspiration": "Chevrolet Camaro",
+    "estimatedTopSpeedMph": 165,
+    "description": "Modern American muscle coupe seen in Vice City traffic and car-meet shots.",
+    "customizationNotes": [
+      "Hood scoops",
+      "Spoilers",
+      "Engine and exhaust upgrades"
+    ],
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "bravado-buffalo",
+    "name": "Bravado Buffalo",
+    "category": "Muscle",
+    "manufacturer": "Bravado",
+    "realWorldInspiration": "Dodge Charger",
+    "estimatedTopSpeedMph": 160,
+    "description": "Four-door muscle sedan; police-livery variants appear in chase footage.",
+    "customizationNotes": [
+      "Police interceptor variant",
+      "Wheel and tint packages"
+    ],
+    "trailerAppearances": [
+      "Trailer 1",
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "vapid-dominator",
+    "name": "Vapid Dominator",
+    "category": "Muscle",
+    "manufacturer": "Vapid",
+    "realWorldInspiration": "Ford Mustang",
+    "estimatedTopSpeedMph": 165,
+    "description": "Pony-car muscle coupe, a GTA mainstay, spotted at Leonida car meets.",
+    "customizationNotes": [
+      "Drag tuning",
+      "Roll cages",
+      "Livery options"
+    ],
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "pegassi-zentorno",
+    "name": "Pegassi Supercar",
+    "category": "Super",
+    "manufacturer": "Pegassi",
+    "realWorldInspiration": "Lamborghini (various)",
+    "estimatedTopSpeedMph": 205,
+    "description": "Wedge-shaped Italian-style supercar parked outside Vice City luxury venues. Exact model name unconfirmed.",
+    "customizationNotes": [
+      "Carbon aero",
+      "Scissor doors",
+      "Neon underglow"
+    ],
+    "trailerAppearances": [
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "grotti-cheetah-classic",
+    "name": "Grotti Cheetah Classic",
+    "category": "Sports Classic",
+    "manufacturer": "Grotti",
+    "realWorldInspiration": "Ferrari Testarossa",
+    "estimatedTopSpeedMph": 180,
+    "description": "1980s-style Italian wedge with side strakes — a nod to Vice City's neon-era roots.",
+    "customizationNotes": [
+      "Pop-up headlights",
+      "Period-correct wheels"
+    ],
+    "trailerAppearances": [
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "shitzu-pcj-600",
+    "name": "Shitzu PCJ-600",
+    "category": "Bikes",
+    "manufacturer": "Shitzu",
+    "realWorldInspiration": "Honda CBR600",
+    "estimatedTopSpeedMph": 150,
+    "description": "Sport bike weaving through Vice City traffic, a staple since GTA III.",
+    "customizationNotes": [
+      "Exhausts",
+      "Fairings",
+      "Paint"
+    ],
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "western-daemon",
+    "name": "Western Daemon",
+    "category": "Bikes",
+    "manufacturer": "Western",
+    "realWorldInspiration": "Harley-Davidson chopper",
+    "estimatedTopSpeedMph": 110,
+    "description": "Heavy cruiser chopper associated with biker culture around Ambrosia.",
+    "customizationNotes": [
+      "Ape-hanger bars",
+      "Chrome packages",
+      "Saddlebags"
+    ],
+    "trailerAppearances": [
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "vapid-sandking",
+    "name": "Vapid Sandking",
+    "category": "Off-Road",
+    "manufacturer": "Vapid",
+    "realWorldInspiration": "Ford F-350 (lifted)",
+    "estimatedTopSpeedMph": 105,
+    "description": "Jacked-up pickup with mud tires, at home on Grassrivers dirt roads and mudding events.",
+    "customizationNotes": [
+      "Lift kits",
+      "Mud tires",
+      "Light bars"
+    ],
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "declasse-granger",
+    "name": "Declasse Granger",
+    "category": "SUV",
+    "manufacturer": "Declasse",
+    "realWorldInspiration": "Chevrolet Suburban",
+    "estimatedTopSpeedMph": 115,
+    "description": "Full-size SUV used by law enforcement and private security across Leonida.",
+    "customizationNotes": [
+      "Push bars",
+      "Emergency lighting",
+      "Tint"
+    ],
+    "trailerAppearances": [
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "vapid-police-cruiser",
+    "name": "Leonida Police Cruiser",
+    "category": "Emergency",
+    "manufacturer": "Vapid",
+    "realWorldInspiration": "Ford Police Interceptor",
+    "estimatedTopSpeedMph": 145,
+    "description": "Patrol units with Leonida law-enforcement livery seen in chases and arrests.",
+    "customizationNotes": [],
+    "trailerAppearances": [
+      "Trailer 1",
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Police vehicles seen in Trailers 1 & 2; manufacturer and model name unconfirmed"
+  },
+  {
+    "id": "airboat",
+    "name": "Airboat",
+    "category": "Boat",
+    "manufacturer": "Unknown",
+    "realWorldInspiration": "Everglades airboat",
+    "estimatedTopSpeedMph": 45,
+    "description": "Flat-bottomed fan-driven boat skimming over the Grassrivers wetlands.",
+    "customizationNotes": [],
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": true,
+    "source": "Rockstar Games — GTA VI Trailer 1 (Dec 2023); airboats shown in Grassrivers. Name/manufacturer unconfirmed"
+  },
+  {
+    "id": "speedophile-seashark",
+    "name": "Speedophile Seashark",
+    "category": "Boat",
+    "manufacturer": "Speedophile",
+    "realWorldInspiration": "Sea-Doo / Jet Ski",
+    "estimatedTopSpeedMph": 65,
+    "description": "Personal watercraft tearing up the Vice City coastline and Keys waters.",
+    "customizationNotes": [
+      "Color schemes"
+    ],
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "go-fast-boat",
+    "name": "Go-Fast Powerboat",
+    "category": "Boat",
+    "manufacturer": "Unknown",
+    "realWorldInspiration": "Cigarette racing boat",
+    "estimatedTopSpeedMph": 85,
+    "description": "Offshore powerboat synonymous with Vice City's smuggling past and present.",
+    "customizationNotes": [],
+    "trailerAppearances": [
+      "Trailer 1",
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Offshore powerboats seen in trailer coastline shots per community analysis; name/manufacturer unconfirmed"
+  },
+  {
+    "id": "buckingham-swift",
+    "name": "Buckingham Swift",
+    "category": "Helicopter",
+    "manufacturer": "Buckingham",
+    "realWorldInspiration": "AgustaWestland AW109",
+    "estimatedTopSpeedMph": 160,
+    "description": "Light twin-engine helicopter used for news coverage and police pursuits over Vice City.",
+    "customizationNotes": [],
+    "trailerAppearances": [
+      "Trailer 1"
+    ],
+    "verified": false,
+    "source": "Community identification from official trailers; in-game name and stats unconfirmed"
+  },
+  {
+    "id": "convertible-classic",
+    "name": "Classic Convertible",
+    "category": "Sports Classic",
+    "manufacturer": "Unknown",
+    "realWorldInspiration": "Mid-century American convertible",
+    "estimatedTopSpeedMph": 115,
+    "description": "Vintage top-down convertible cruising the Vice Beach strip in trailer cutaways.",
+    "customizationNotes": [],
+    "trailerAppearances": [
+      "Trailer 2"
+    ],
+    "verified": false,
+    "source": "Seen in Trailer 2 beach-cruising shots; make and model unconfirmed"
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "lucia-caminos",
+    "name": "Lucia Caminos",
+    "role": "Protagonist",
+    "affiliation": ["Jason Duval"],
+    "bio": "Lucia's father taught her to fight as soon as she could walk. Fighting for her family landed her in Leonida Penitentiary; after getting out she wants a better life than the one she was handed — and teams up with Jason to take it. The first female protagonist in a mainline 3D GTA.",
+    "homeLocation": "vice-city",
+    "relationships": [
+      { "characterId": "jason-duval", "relation": "Partner in love and crime" }
+    ],
+    "trailerAppearances": ["Trailer 1", "Trailer 2", "Official Website", "Official Screenshots"],
+    "verified": true,
+    "source": "Rockstar Games — official GTA VI website (Lucia Caminos) and Trailers 1 & 2",
+    "sourceUrl": "https://www.rockstargames.com/VI"
+  },
+  {
+    "id": "jason-duval",
+    "name": "Jason Duval",
+    "role": "Protagonist",
+    "affiliation": ["Lucia Caminos", "Brian Heder"],
+    "bio": "Jason grew up around grifters and crooks. After a stint in the Army trying to shake off his troubled past, he ended up in the Keys doing what he knows best — working for local drug runners. Maybe it's time to try something new.",
+    "homeLocation": "leonida-keys",
+    "relationships": [
+      { "characterId": "lucia-caminos", "relation": "Partner in love and crime" },
+      { "characterId": "cal-hampton", "relation": "Friend and associate" },
+      { "characterId": "brian-heder", "relation": "Works for him" }
+    ],
+    "trailerAppearances": ["Trailer 1", "Trailer 2", "Official Website", "Official Screenshots"],
+    "verified": true,
+    "source": "Rockstar Games — official GTA VI website (Jason Duval) and Trailers 1 & 2",
+    "sourceUrl": "https://www.rockstargames.com/VI"
+  },
+  {
+    "id": "cal-hampton",
+    "name": "Cal Hampton",
+    "role": "Supporting",
+    "affiliation": ["Jason Duval"],
+    "bio": "Jason's friend and associate. Cal is a paranoid homebody who'd rather stay in with a beer, listening in on Coast Guard radio chatter and reading up on conspiracies, than face the world outside.",
+    "homeLocation": "leonida-keys",
+    "relationships": [
+      { "characterId": "jason-duval", "relation": "Friend and associate" }
+    ],
+    "trailerAppearances": ["Trailer 2", "Official Website"],
+    "verified": true,
+    "source": "Rockstar Games — official GTA VI website (Cal Hampton)",
+    "sourceUrl": "https://www.rockstargames.com/VI"
+  },
+  {
+    "id": "boobie-ike",
+    "name": "Boobie Ike",
+    "role": "Supporting",
+    "affiliation": ["Only Raw Records"],
+    "bio": "A Vice City legend who turned street success into a legitimate-looking empire of real estate, a strip club and a recording studio. Boobie knows business is all about who you know.",
+    "homeLocation": "vice-city",
+    "relationships": [
+      { "characterId": "dre-quan-priest", "relation": "Business partner at Only Raw Records" },
+      { "characterId": "real-dimez", "relation": "Label boss" }
+    ],
+    "trailerAppearances": ["Trailer 2", "Official Website"],
+    "verified": true,
+    "source": "Rockstar Games — official GTA VI website (Boobie Ike)",
+    "sourceUrl": "https://www.rockstargames.com/VI"
+  },
+  {
+    "id": "dre-quan-priest",
+    "name": "Dre'Quan Priest",
+    "role": "Supporting",
+    "affiliation": ["Only Raw Records"],
+    "bio": "Dre'Quan was always more about hustle than talent. After years dealing on the streets, he's set on becoming a music mogul — and he's betting everything on Real Dimez through Only Raw Records.",
+    "homeLocation": "vice-city",
+    "relationships": [
+      { "characterId": "boobie-ike", "relation": "Business partner" },
+      { "characterId": "real-dimez", "relation": "Manager" }
+    ],
+    "trailerAppearances": ["Trailer 2", "Official Website"],
+    "verified": true,
+    "source": "Rockstar Games — official GTA VI website (Dre'Quan Priest)",
+    "sourceUrl": "https://www.rockstargames.com/VI"
+  },
+  {
+    "id": "real-dimez",
+    "name": "Real Dimez (Bae-Luxe & Roxy)",
+    "role": "Supporting",
+    "affiliation": ["Only Raw Records"],
+    "bio": "Bae-Luxe and Roxy are best friends since high school who've already gone viral once. Now signed to Only Raw Records, the rap duo is ready to turn social-media hustle into real stardom.",
+    "homeLocation": "vice-city",
+    "relationships": [
+      { "characterId": "dre-quan-priest", "relation": "Manager" },
+      { "characterId": "boobie-ike", "relation": "Label boss" }
+    ],
+    "trailerAppearances": ["Trailer 2", "Official Website"],
+    "verified": true,
+    "source": "Rockstar Games — official GTA VI website (Real Dimez)",
+    "sourceUrl": "https://www.rockstargames.com/VI"
+  },
+  {
+    "id": "raul-bautista",
+    "name": "Raul Bautista",
+    "role": "Supporting",
+    "affiliation": [],
+    "bio": "A seasoned, charming bank robber who's always looking for new talent — and is willing to take bigger risks than most for a bigger payday.",
+    "homeLocation": null,
+    "relationships": [],
+    "trailerAppearances": ["Trailer 2", "Official Website"],
+    "verified": true,
+    "source": "Rockstar Games — official GTA VI website (Raul Bautista)",
+    "sourceUrl": "https://www.rockstargames.com/VI"
+  },
+  {
+    "id": "brian-heder",
+    "name": "Brian Heder",
+    "role": "Supporting",
+    "affiliation": ["Leonida Keys drug runners"],
+    "bio": "An old-school drug runner who has been moving product through the Keys since the glory days. Brian lets Jason live rent-free in one of his properties in exchange for help with his business.",
+    "homeLocation": "leonida-keys",
+    "relationships": [
+      { "characterId": "jason-duval", "relation": "Employer and landlord" }
+    ],
+    "trailerAppearances": ["Trailer 2", "Official Website"],
+    "verified": true,
+    "source": "Rockstar Games — official GTA VI website (Brian Heder)",
+    "sourceUrl": "https://www.rockstargames.com/VI"
+  }
+]

@@ -1,0 +1,17 @@
+name: 🐛 API bug
+description: Something in the API or website is broken
+labels: [bug]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Request URL
+      placeholder: /api/v1/vehicles?category=muscle
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual behaviour
+    validations:
+      required: true
