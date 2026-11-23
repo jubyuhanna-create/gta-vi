@@ -52,17 +52,6 @@
     "source": "Fishing imagery in Trailer 2 per community analysis; playable activity unconfirmed"
   },
   {
-    "id": "jet-ski-racing",
-    "name": "Jet Ski Racing",
-    "category": "Mini-Game",
-    "region": "vice-city",
-    "description": "Watercraft races along the Vice City coastline.",
-    "reward": "Cash / unlocks (unknown)",
-    "trailerAppearances": [],
-    "verified": false,
-    "source": "Series staple; presence in GTA VI unconfirmed"
-  },
-  {
     "id": "street-races",
     "name": "Street Races",
     "category": "Mini-Game",
@@ -101,38 +90,5 @@
     ],
     "verified": false,
     "source": "Beach gym seen in trailers; mechanic unconfirmed"
-  },
-  {
-    "id": "hunting",
-    "name": "Hunting",
-    "category": "Hobby",
-    "region": "mount-kalaga-national-park",
-    "description": "Track wildlife in Leonida's northern wilderness.",
-    "reward": "Pelts / cash (unknown)",
-    "trailerAppearances": [],
-    "verified": false,
-    "source": "Series staple; presence in GTA VI unconfirmed"
-  },
-  {
-    "id": "hidden-packages",
-    "name": "Hidden Packages",
-    "category": "Collectible",
-    "region": null,
-    "description": "Classic series collectible scattered across the map, famously in GTA Vice City.",
-    "reward": "Weapons / cash (unknown)",
-    "trailerAppearances": [],
-    "verified": false,
-    "source": "Series staple; presence in GTA VI unconfirmed"
-  },
-  {
-    "id": "stunt-jumps",
-    "name": "Unique Stunt Jumps",
-    "category": "Collectible",
-    "region": null,
-    "description": "Hit ramps at speed for cinematic slow-motion jumps.",
-    "reward": "Completion credit (unknown)",
-    "trailerAppearances": [],
-    "verified": false,
-    "source": "Series staple; presence in GTA VI unconfirmed"
   }
 ]

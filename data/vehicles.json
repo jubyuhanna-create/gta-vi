@@ -5,7 +5,7 @@
     "category": "Sports",
     "manufacturer": "Bravado",
     "realWorldInspiration": "Dodge Viper",
-    "estimatedTopSpeedMph": 190,
+    "estimatedTopSpeedMph": null,
     "description": "Long-hooded V10-style roadster, a series staple. A modern Viper-inspired design is spotted cruising Vice City in the trailers.",
     "customizationNotes": [
       "Wide-body kits",
@@ -24,7 +24,7 @@
     "category": "Muscle",
     "manufacturer": "Declasse",
     "realWorldInspiration": "Chevrolet Camaro",
-    "estimatedTopSpeedMph": 165,
+    "estimatedTopSpeedMph": null,
     "description": "Modern American muscle coupe seen in Vice City traffic and car-meet shots.",
     "customizationNotes": [
       "Hood scoops",
@@ -43,7 +43,7 @@
     "category": "Muscle",
     "manufacturer": "Bravado",
     "realWorldInspiration": "Dodge Charger",
-    "estimatedTopSpeedMph": 160,
+    "estimatedTopSpeedMph": null,
     "description": "Four-door muscle sedan; police-livery variants appear in chase footage.",
     "customizationNotes": [
       "Police interceptor variant",
@@ -62,7 +62,7 @@
     "category": "Muscle",
     "manufacturer": "Vapid",
     "realWorldInspiration": "Ford Mustang",
-    "estimatedTopSpeedMph": 165,
+    "estimatedTopSpeedMph": null,
     "description": "Pony-car muscle coupe, a GTA mainstay, spotted at Leonida car meets.",
     "customizationNotes": [
       "Drag tuning",
@@ -76,12 +76,12 @@
     "source": "Community identification from official trailers; in-game name and stats unconfirmed"
   },
   {
-    "id": "pegassi-zentorno",
+    "id": "pegassi-supercar",
     "name": "Pegassi Supercar",
     "category": "Super",
     "manufacturer": "Pegassi",
     "realWorldInspiration": "Lamborghini (various)",
-    "estimatedTopSpeedMph": 205,
+    "estimatedTopSpeedMph": null,
     "description": "Wedge-shaped Italian-style supercar parked outside Vice City luxury venues. Exact model name unconfirmed.",
     "customizationNotes": [
       "Carbon aero",
@@ -100,7 +100,7 @@
     "category": "Sports Classic",
     "manufacturer": "Grotti",
     "realWorldInspiration": "Ferrari Testarossa",
-    "estimatedTopSpeedMph": 180,
+    "estimatedTopSpeedMph": null,
     "description": "1980s-style Italian wedge with side strakes — a nod to Vice City's neon-era roots.",
     "customizationNotes": [
       "Pop-up headlights",
@@ -118,7 +118,7 @@
     "category": "Bikes",
     "manufacturer": "Shitzu",
     "realWorldInspiration": "Honda CBR600",
-    "estimatedTopSpeedMph": 150,
+    "estimatedTopSpeedMph": null,
     "description": "Sport bike weaving through Vice City traffic, a staple since GTA III.",
     "customizationNotes": [
       "Exhausts",
@@ -137,7 +137,7 @@
     "category": "Bikes",
     "manufacturer": "Western",
     "realWorldInspiration": "Harley-Davidson chopper",
-    "estimatedTopSpeedMph": 110,
+    "estimatedTopSpeedMph": null,
     "description": "Heavy cruiser chopper associated with biker culture around Ambrosia.",
     "customizationNotes": [
       "Ape-hanger bars",
@@ -156,7 +156,7 @@
     "category": "Off-Road",
     "manufacturer": "Vapid",
     "realWorldInspiration": "Ford F-350 (lifted)",
-    "estimatedTopSpeedMph": 105,
+    "estimatedTopSpeedMph": null,
     "description": "Jacked-up pickup with mud tires, at home on Grassrivers dirt roads and mudding events.",
     "customizationNotes": [
       "Lift kits",
@@ -175,7 +175,7 @@
     "category": "SUV",
     "manufacturer": "Declasse",
     "realWorldInspiration": "Chevrolet Suburban",
-    "estimatedTopSpeedMph": 115,
+    "estimatedTopSpeedMph": null,
     "description": "Full-size SUV used by law enforcement and private security across Leonida.",
     "customizationNotes": [
       "Push bars",
@@ -189,12 +189,12 @@
     "source": "Community identification from official trailers; in-game name and stats unconfirmed"
   },
   {
-    "id": "vapid-police-cruiser",
+    "id": "police-cruiser",
     "name": "Leonida Police Cruiser",
     "category": "Emergency",
-    "manufacturer": "Vapid",
+    "manufacturer": "Unknown",
     "realWorldInspiration": "Ford Police Interceptor",
-    "estimatedTopSpeedMph": 145,
+    "estimatedTopSpeedMph": null,
     "description": "Patrol units with Leonida law-enforcement livery seen in chases and arrests.",
     "customizationNotes": [],
     "trailerAppearances": [
@@ -210,7 +210,7 @@
     "category": "Boat",
     "manufacturer": "Unknown",
     "realWorldInspiration": "Everglades airboat",
-    "estimatedTopSpeedMph": 45,
+    "estimatedTopSpeedMph": null,
     "description": "Flat-bottomed fan-driven boat skimming over the Grassrivers wetlands.",
     "customizationNotes": [],
     "trailerAppearances": [
@@ -225,7 +225,7 @@
     "category": "Boat",
     "manufacturer": "Speedophile",
     "realWorldInspiration": "Sea-Doo / Jet Ski",
-    "estimatedTopSpeedMph": 65,
+    "estimatedTopSpeedMph": null,
     "description": "Personal watercraft tearing up the Vice City coastline and Keys waters.",
     "customizationNotes": [
       "Color schemes"
@@ -242,7 +242,7 @@
     "category": "Boat",
     "manufacturer": "Unknown",
     "realWorldInspiration": "Cigarette racing boat",
-    "estimatedTopSpeedMph": 85,
+    "estimatedTopSpeedMph": null,
     "description": "Offshore powerboat synonymous with Vice City's smuggling past and present.",
     "customizationNotes": [],
     "trailerAppearances": [
@@ -258,7 +258,7 @@
     "category": "Helicopter",
     "manufacturer": "Buckingham",
     "realWorldInspiration": "AgustaWestland AW109",
-    "estimatedTopSpeedMph": 160,
+    "estimatedTopSpeedMph": null,
     "description": "Light twin-engine helicopter used for news coverage and police pursuits over Vice City.",
     "customizationNotes": [],
     "trailerAppearances": [
@@ -268,12 +268,12 @@
     "source": "Community identification from official trailers; in-game name and stats unconfirmed"
   },
   {
-    "id": "convertible-classic",
+    "id": "classic-convertible",
     "name": "Classic Convertible",
     "category": "Sports Classic",
     "manufacturer": "Unknown",
     "realWorldInspiration": "Mid-century American convertible",
-    "estimatedTopSpeedMph": 115,
+    "estimatedTopSpeedMph": null,
     "description": "Vintage top-down convertible cruising the Vice Beach strip in trailer cutaways.",
     "customizationNotes": [],
     "trailerAppearances": [

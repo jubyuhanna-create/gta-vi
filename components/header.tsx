@@ -24,7 +24,7 @@ export function Header() {
             </Link>
           ))}
           <a href={site.repo} target="_blank" rel="noreferrer" className="btn-ghost ml-2 hidden !py-1.5 sm:inline-flex">
-            ★ Star on GitHub
+            GitHub
           </a>
         </nav>
       </div>

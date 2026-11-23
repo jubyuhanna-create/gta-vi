@@ -1,30 +1,14 @@
-<div align="center">
+# Leonida API
 
-# 🌴 Leonida API
+A free, read-only JSON API for Grand Theft Auto VI data: characters, locations, vehicles, weapons, music and side activities. The data lives in plain JSON files in this repo and is checked with Zod on every build.
 
-### The open GTA VI database & REST API
-
-Free, open-source, **Zod-validated** data and a fast, CORS-enabled REST API for *Grand Theft Auto VI* — vehicles, locations, characters, weapons, radio and side activities across the state of Leonida.
+Each entry has a `verified` flag and a `source`. `verified: true` means it's in an official trailer or on rockstargames.com. Everything else is a community guess and says so. It's a small dataset for now, because two trailers and a website only tell you so much.
 
 [![CI](https://github.com/jubyuhanna-create/gta-vi/actions/workflows/ci.yml/badge.svg)](https://github.com/jubyuhanna-create/gta-vi/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-ff2a85.svg)](./LICENSE)
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-00f0ff.svg)](./CONTRIBUTING.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjubyuhanna-create%2Fgta-vi&project-name=leonida-api&repository-name=leonida-api)
 
-**[Docs](#-api-reference) · [Contribute data](./CONTRIBUTING.md) · [OpenAPI spec](#openapi)**
-
-</div>
-
----
-
-## ✨ Why
-
-- **No API key, no database, no cost.** Data lives in plain JSON in [`/data`](./data); the API runs on Vercel's edge cache.
-- **Credible by design.** Every entry has `verified` (confirmed by official Rockstar material) and `source`. Build apps that show only facts with `?verified=true`.
-- **PR-friendly.** Strict Zod schemas + cross-reference checks run in CI and before every build — a bad edit can't reach production.
-- **Developer-first.** Consistent envelope, filtering, full-text search, pagination, global search, OpenAPI 3.1 spec, open CORS.
-
-## 🚀 Quick start
+## Quick start
 
 ```bash
 curl "https://YOUR-DEPLOYMENT/api/v1/vehicles?category=muscle&limit=5"
@@ -52,7 +36,7 @@ client.on("interactionCreate", async (interaction) => {
 
 </details>
 
-## 📚 API reference
+## API
 
 Base path: `/api/v1` · Read-only · `GET` only · No auth
 
@@ -109,28 +93,28 @@ Errors:
 
 ### Global search
 
-`GET /api/v1/search?q=vice&types=locations,radio&limit=5` returns only groups with hits:
+`GET /api/v1/search?q=vice&types=locations,characters&limit=5` returns only groups with hits:
 
 ```json
 {
   "success": true,
-  "meta": { "total": 8, "query": "vice", "types": ["locations", "radio"], "limit": 5, "version": "1.0.0" },
+  "meta": { "total": 6, "query": "vice", "types": ["locations", "characters"], "limit": 5, "version": "1.0.0" },
   "data": {
     "locations": { "total": 5, "results": [{ "id": "vice-city", "name": "Vice City", "type": "locations", "summary": "region", "verified": true, "score": 40, "url": "/api/v1/locations/vice-city" }] },
-    "radio": { "total": 3, "results": [ ... ] }
+    "characters": { "total": 1, "results": [ ... ] }
   }
 }
 ```
 
 ### CORS & caching
 
-All API responses send `Access-Control-Allow-Origin: *` and answer `OPTIONS` preflights. Responses carry `Cache-Control: public, max-age=300, s-maxage=86400, stale-while-revalidate=604800` — data only changes on deploy, so Vercel's CDN serves almost everything.
+Responses send `Access-Control-Allow-Origin: *`, so you can call the API from a browser. They're cached on Vercel's CDN for a day (`s-maxage=86400`), since the data only changes when the repo is deployed.
 
 ### OpenAPI
 
-`/api/v1/openapi.json` is generated at runtime from the same Zod schemas that validate the data, so it can't drift. Import it into Postman/Insomnia or generate a typed client with `openapi-typescript`.
+`/api/v1/openapi.json` is generated from the same Zod schemas that validate the data. You can import it into Postman or generate a typed client from it.
 
-## 🗂 Data
+## Data
 
 | File | Contents |
 | --- | --- |
@@ -138,14 +122,14 @@ All API responses send `Access-Control-Allow-Origin: *` and answer `OPTIONS` pre
 | [`locations.json`](./data/locations.json) | Regions (Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga National Park), districts, landmarks, relative coordinates |
 | [`characters.json`](./data/characters.json) | Lucia, Jason and the supporting cast — role, affiliation, bio, relationships |
 | [`weapons.json`](./data/weapons.json) | Category, ammo type, description |
-| [`radio-stations.json`](./data/radio-stations.json) | Stations and trailer soundtracks with notable tracks |
+| [`radio-stations.json`](./data/radio-stations.json) | Songs from the trailers. No in-game radio stations have been announced yet. |
 | [`collectibles.json`](./data/collectibles.json) | Collectibles, hobbies and side activities by region |
 
-> **About `verified`.** The seed data was compiled from official pre-release material (Trailers 1 & 2 and the official GTA VI website). Entries confirmed there are `verified: true`. Community identifications from trailer frames (most vehicle names, for example) and returning series staples are `verified: false` and say so in `source`. Help us upgrade entries as more is confirmed — see [CONTRIBUTING.md](./CONTRIBUTING.md).
+> **About `verified`.** The seed data was compiled from official pre-release material (Trailers 1 & 2 and the official GTA VI website). Entries confirmed there are `verified: true`. Community identifications from trailer frames (most vehicle names, for example) and series staples (weapons, mostly) are `verified: false` and say so in `source`. If you can source something, send a PR and it gets upgraded.
 
 Coordinates are a **relative 0–100 grid** (x: west→east, y: north→south) estimated by the community — good for rough maps, not game units.
 
-## 🛠 Local development
+## Running it locally
 
 ```bash
 git clone https://github.com/jubyuhanna-create/gta-vi.git leonida-api
@@ -184,14 +168,14 @@ scripts/validate-data.ts  `npm run validate`
 tests/                    Vitest
 ```
 
-## ☁️ Deploy
+## Deploying
 
-Click **Deploy with Vercel** above, or import the repo at [vercel.com/new](https://vercel.com/new). No environment variables or database are required. Optionally set `NEXT_PUBLIC_SITE_URL` for canonical URLs in the sitemap.
+Import the repo on Vercel (or use the button above). There's no database and no required environment variables. `NEXT_PUBLIC_SITE_URL` is optional and only used for the sitemap.
 
-## 🤝 Contributing
+## Contributing
 
-Data PRs are the heart of this project. Read [CONTRIBUTING.md](./CONTRIBUTING.md), edit a JSON file, run `npm run validate`, open a PR. If this project helps you, **⭐ star the repo** so other developers can find it.
+Most fixes are a JSON edit. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the fields and the rule for marking something verified. Run `npm run validate` before opening a PR.
 
-## ⚖️ Legal
+## Legal
 
-Leonida API is an unofficial, non-commercial fan project. It is **not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive**. *Grand Theft Auto*, *GTA*, *Vice City*, *Leonida* and related names are trademarks of their respective owners. No game assets are distributed. Code is released under the [MIT License](./LICENSE); descriptions are written by contributors and summarise publicly released official material.
+Unofficial fan project. It is **not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive**. *Grand Theft Auto*, *GTA*, *Vice City*, *Leonida* and related names are trademarks of their respective owners. No game assets are distributed. Code is released under the [MIT License](./LICENSE); descriptions are written by contributors and summarise publicly released official material.

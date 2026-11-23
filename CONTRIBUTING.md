@@ -34,7 +34,7 @@ The source of truth is [`lib/schemas.ts`](./lib/schemas.ts). Every entry shares:
 
 | File | Extra fields |
 | --- | --- |
-| `vehicles.json` | `category` (enum: Super, Sports, Sports Classic, Muscle, Coupe, Sedan, SUV, Off-Road, Compact, Van, Truck, Bikes, Emergency, Boat, Aircraft, Helicopter), `manufacturer`, `realWorldInspiration?`, `estimatedTopSpeedMph` (int or `null`), `description`, `customizationNotes[]`, `trailerAppearances[]` |
+| `vehicles.json` | `category` (enum: Super, Sports, Sports Classic, Muscle, Coupe, Sedan, SUV, Off-Road, Compact, Van, Truck, Bikes, Emergency, Boat, Aircraft, Helicopter), `manufacturer`, `realWorldInspiration?`, `estimatedTopSpeedMph` (int, or `null` unless there is an official or in-game figure), `description`, `customizationNotes[]`, `trailerAppearances[]` |
 | `locations.json` | `type` (region, city, town, district, island-chain, wetlands, national-park, landmark, facility), `region` (id of a `type: "region"` location, or `null`), `description`, `coordinates {x, y}` (0–100 relative grid, x = west→east, y = north→south), `landmarks[]`, `realWorldInspiration?`, `trailerAppearances[]` |
 | `characters.json` | `role` (Protagonist, Supporting, Antagonist, Minor), `affiliation[]`, `bio`, `homeLocation` (location id or `null`), `relationships[] {characterId, relation}`, `trailerAppearances[]` |
 | `weapons.json` | `category` (Handgun, Shotgun, SMG, Assault Rifle, Sniper Rifle, Machine Gun, Heavy, Throwable, Melee), `ammoType`, `description`, `trailerAppearances[]` |

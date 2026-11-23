@@ -31,11 +31,11 @@ const errorEnvelope = `{
   }
 }`;
 
-const searchExample = `GET /api/v1/search?q=vice&types=locations,radio&limit=5
+const searchExample = `GET /api/v1/search?q=vice&types=locations,characters&limit=5
 
 {
   "success": true,
-  "meta": { "total": 8, "query": "vice", "types": ["locations", "radio"], "limit": 5, "version": "${API_VERSION}" },
+  "meta": { "total": 6, "query": "vice", "types": ["locations", "characters"], "limit": 5, "version": "${API_VERSION}" },
   "data": {
     "locations": {
       "total": 5,
@@ -44,7 +44,7 @@ const searchExample = `GET /api/v1/search?q=vice&types=locations,radio&limit=5
           "summary": "region", "verified": true, "score": 40, "url": "/api/v1/locations/vice-city" }
       ]
     },
-    "radio": { "total": 3, "results": [ ... ] }
+    "characters": { "total": 1, "results": [ ... ] }
   }
 }`;
 

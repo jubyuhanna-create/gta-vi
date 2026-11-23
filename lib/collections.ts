@@ -123,7 +123,7 @@ export const collections = {
     path: "radio",
     file: "radio-stations.json",
     label: "Radio",
-    description: "Radio stations, trailer soundtracks and notable tracks.",
+    description: "Music from the trailers. Radio stations get added once Rockstar names them.",
     schema: RadioStationSchema,
     raw: radioJson,
     searchText: (r) => [

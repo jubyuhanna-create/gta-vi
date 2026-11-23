@@ -105,8 +105,8 @@ describe("GET /api/v1/search", () => {
   });
 
   it("restricts to types", async () => {
-    const body = await json(await search(req("/api/v1/search?q=vice&types=radio")));
-    expect(Object.keys(body.data)).toEqual(["radio"]);
+    const body = await json(await search(req("/api/v1/search?q=vice&types=locations")));
+    expect(Object.keys(body.data)).toEqual(["locations"]);
   });
 
   it("validates q and types", async () => {
